@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Bryan's Resume</h1>
+      <h2>Bryan's Resume</h2>
       <p>
         Work History:
       </p>

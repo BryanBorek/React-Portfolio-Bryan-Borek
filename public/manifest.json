@@ -3,6 +3,7 @@
     "name": "Bryan Borek React Portfolio 2022",
     "icons": [],
     "start_url": ".",
+    "public_url": ".",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"

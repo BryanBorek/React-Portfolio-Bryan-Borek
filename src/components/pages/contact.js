@@ -3,15 +3,9 @@ import React from 'react';
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Bryan</h1>
+      <h2>Contact Bryan</h2>
       <p>
-        Github:
-      </p>
-      <p>
-        Email:
-      </p>
-      <p>
-        LinkedIn:
+        Contact form goes here.
       </p>
     </div>
   );
