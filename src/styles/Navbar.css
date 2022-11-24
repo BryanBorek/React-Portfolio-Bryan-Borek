@@ -1,0 +1,24 @@
+.navBar {
+    background: rgba(255, 255, 255, 0.25);
+    height: 100%;
+    text-align: center;
+}
+
+.navBtn {
+    background: rgba(255, 255, 255, 0.25);
+    height: 0%;
+    text-align: center;
+}
+
+.navBtn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    height: max-content;
+    transition: height 0.26s;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
