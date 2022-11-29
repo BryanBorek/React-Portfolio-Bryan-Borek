@@ -35,7 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     className={currentPage === 'Resume' ? 'nav-link navBtn active' : 'navBtn nav-link'}
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
                     ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
-                    Resume
+                    Resumè
                     </p>
                 </a>
             </li>
