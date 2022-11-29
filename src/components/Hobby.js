@@ -9,7 +9,7 @@ export default function Hobby({ title, subtitle, description, png }) {
         </h3>
         <img src={png} alt={description} style={{ width: '100%', minWidth: "200px" }} />
       </div>
-      <div style={{ height: "-webkit-fill-available" }}>
+      <div>
       <h4 className='p-2'>
           {subtitle}
         </h4>
@@ -18,7 +18,7 @@ export default function Hobby({ title, subtitle, description, png }) {
         <p className='m-0 p-2 glass' style={{ minHeight: "3em", width: '100%', minWidth: "200px" }}>
           {description}
         </p>
-        <div style={{ minHeight: "2em"}}></div>
+        <div style={{ minHeight: "1em"}}></div>
       </div>
     </div>
   )

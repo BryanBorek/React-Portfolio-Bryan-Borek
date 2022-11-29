@@ -16,18 +16,6 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
 
-            {/* contact page */}
-            <li className='nav-item active' style={{padding: "0px", margin: "0px"}}>
-                <a href='#contact'
-                    onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link navBtn active' : 'navBtn nav-link'}
-                    style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
-                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
-                    Contact
-                    </p>
-                </a>
-            </li>
-
             {/* portfolio page */}
             <li className='nav-item active' style={{padding: "0px", margin: "0px"}}>
                 <a href='#portfolio'
@@ -48,6 +36,18 @@ function Navigation({ currentPage, handlePageChange }) {
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
                     ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
                     Resume
+                    </p>
+                </a>
+            </li>
+
+            {/* contact page */}
+            <li className='nav-item active' style={{padding: "0px", margin: "0px"}}>
+                <a href='#contact'
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link navBtn active' : 'navBtn nav-link'}
+                    style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
+                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
+                    Contact
                     </p>
                 </a>
             </li>

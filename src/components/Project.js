@@ -9,8 +9,8 @@ export default function Project({ url, github, title, subtitle, description, png
         </h3>
         <img src={png} alt={description} style={{ width: '100%', minWidth: "200px" }} />
       </div>
-      <div style={{ height: "-webkit-fill-available" }}>
-      <h4 className='p-2'>
+      <div style={{ height: "auto" }}>
+      <h4 className='p-2' style={{ minHeight: "75px" }}>
           {subtitle}
         </h4>
       </div>
@@ -18,7 +18,7 @@ export default function Project({ url, github, title, subtitle, description, png
         <p className='m-0 p-2 glass' style={{ minHeight: "7em", width: '100%', minWidth: "200px" }}>
           {description}
         </p>
-        <p className='m-0'>
+        <p className='m-0 d-inline-flex' style={{ overflow: "scroll" }}>
           <a className="linkBtn m-2" href={url}>Live URL</a><a className="linkBtn m-2" href={github}>Repository</a>
         </p>
       </div>

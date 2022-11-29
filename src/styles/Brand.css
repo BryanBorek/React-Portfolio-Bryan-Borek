@@ -1,25 +1,29 @@
 h1 {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', cursive;
     max-width: 100%; 
     color: rgb(70, 70, 70);
+    font-weight: bold;
 }
 
 h2 {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', cursive;
     max-width: 100%; 
     color: rgb(70, 70, 70);
+    font-weight: bold;
 }
 
 h3 {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', cursive;
     max-width: 100%; 
     color: rgb(70, 70, 70);
+    font-weight: bold;
  }
 
 h4 {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', cursive;
     max-width: 100%; 
     color: rgb(70, 70, 70);
+    font-weight: bold;
  }
 
 p {

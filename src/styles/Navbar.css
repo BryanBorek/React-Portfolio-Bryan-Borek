@@ -36,6 +36,7 @@
     color: var(--bs-btn-color);
     text-decoration: none;
     border-color: transparent;
+    min-width: max-content;
 }
 
 .linkBtn:hover {
@@ -43,6 +44,7 @@
     height: max-content;
     color: rgba(255, 255, 255, 1);
     transition: background-color 1s, color .5s; 
+    min-width: max-content;
 }
 
 .glass {
