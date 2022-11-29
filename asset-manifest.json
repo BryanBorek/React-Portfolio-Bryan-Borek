@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-Portfolio-Bryan-Borek/static/css/main.da98f585.css",
-    "main.js": "/React-Portfolio-Bryan-Borek/static/js/main.3d01c078.js",
+    "main.js": "/React-Portfolio-Bryan-Borek/static/js/main.cff342bf.js",
     "index.html": "/React-Portfolio-Bryan-Borek/index.html",
     "main.da98f585.css.map": "/React-Portfolio-Bryan-Borek/static/css/main.da98f585.css.map",
-    "main.3d01c078.js.map": "/React-Portfolio-Bryan-Borek/static/js/main.3d01c078.js.map"
+    "main.cff342bf.js.map": "/React-Portfolio-Bryan-Borek/static/js/main.cff342bf.js.map"
   },
   "entrypoints": [
     "static/css/main.da98f585.css",
-    "static/js/main.3d01c078.js"
+    "static/js/main.cff342bf.js"
   ]
 }
