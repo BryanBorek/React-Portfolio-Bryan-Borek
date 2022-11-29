@@ -3,14 +3,14 @@ import '../styles/Navbar.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className='nav' style={{height: "fit-content"}}>
+        <ul className='nav' style={{height: "fit-content", display: "inline-flex", flexWrap: "nowrap", overflow: "scroll"}}>
             {/* about page */}
             <li className='nav-item active' style={{padding: "0px", margin: "0px"}}>
                 <a href='#about'
                     onClick={() => handlePageChange('About')}
                     className={currentPage === 'About' ? 'nav-link navBtn active' : 'navBtn nav-link'}
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
-                ><p style={{padding: "10px", margin: "0px", color: "black"}}>
+                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
                     About
                 </p>
                 </a>
@@ -22,7 +22,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact' ? 'nav-link navBtn active' : 'navBtn nav-link'}
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
-                    ><p style={{padding: "10px", margin: "0px", color: "black"}}>
+                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
                     Contact
                     </p>
                 </a>
@@ -34,7 +34,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Portfolio')}
                     className={currentPage === 'Portfolio' ? 'nav-link navBtn active' : 'navBtn nav-link'}
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
-                    ><p style={{padding: "10px", margin: "0px", color: "black"}}>
+                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
                     Portfolio
                     </p>
                 </a>
@@ -46,7 +46,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume' ? 'nav-link navBtn active' : 'navBtn nav-link'}
                     style={{paddingTop: "0px", paddingBottom: "0px", paddingLeft: "10px", paddingRight: "10px", margin: "0px"}}
-                    ><p style={{padding: "10px", margin: "0px", color: "black"}}>
+                    ><p style={{padding: "10px", margin: "0px", color: "black", minHeight: "48px"}}>
                     Resume
                     </p>
                 </a>

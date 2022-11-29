@@ -1,12 +1,14 @@
 import React from 'react';
+import { hobbies } from '../../utils/hobbies';
+import Hobby from '../Hobby';
 
-export default function About() {
+export default function Portfolio() {
   return (
-    <div>
-      <h2>About Bryan</h2>
-      <p>
-        Hi, I'm Bryan.
-      </p>
+    <div style={{ maxWidth: "-webkit-fill-available" }}>
+      <h2>Bryan's Hobbies</h2>
+      <div className='d-flex flex-wrap justify-content-center'>
+        {hobbies.map(hobby => <Hobby {...hobby} />)}
+      </div>
     </div>
-  );
+  )
 }

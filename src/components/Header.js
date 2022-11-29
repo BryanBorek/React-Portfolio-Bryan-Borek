@@ -1,11 +1,15 @@
 import React from 'react';
 
-export default function Header() {
-    return (
-      <div>
-        <h1 style={{padding: "0px 10px", margin: "0px"}}>
+function Header({ currentPage, handlePageChange }) {
+  return (
+    <div>
+      <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link navBtn active' : 'navBtn nav-link'}>
+        <h1 style={{ padding: "0px 10px", margin: "0px" }}>
           Bryan's Portfolio
         </h1>
-      </div>
-    );
-  }
+      </a>
+    </div>
+  );
+}
+
+export default Header;

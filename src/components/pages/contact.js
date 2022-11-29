@@ -1,12 +1,14 @@
 import React from 'react';
 
+import ContactForm from '../ContactForm';
+
 export default function Contact() {
   return (
-    <div>
+    <div style={{ width: "-webkit-fill-available", maxWidth: "-webkit-fill-available" }}>
       <h2>Contact Bryan</h2>
-      <p>
-        Contact form goes here.
-      </p>
+      <div className='d-flex flex-wrap justify-content-center'>
+        {<ContactForm />}
+      </div>
     </div>
-  );
+  )
 }

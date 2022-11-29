@@ -13,13 +13,40 @@ export default function Resume() {
     })
   }
   return (
-    <div>
+    <div style={{ width: "-webkit-fill-available", maxWidth: "-webkit-fill-available" }}>
       <h2>Bryan's Resume</h2>
-      <p>
-        Work History:
-      </p>
+      <div className='d-flex flex-wrap justify-content-center'>
+        <div className='d-flex m-2 p-2' style={{ justifyContent: "center" }}>
+          <div className='d-flex card m-2 px-0 py-2' style={{ backgroundColor: 'rgba(255, 255, 255, 0.25)', borderRadius: "10px 10px 10px 10px", maxWidth: '575px' }}>
+            <h3 className='m-2 p-2'>Bryan Borek Tech Industry Resume</h3>
+            <p className='m-0 p-2 glass' style={{ minHeight: "7em", width: '100%', minWidth: "200px" }}>
+              Hi, I’m Bryan and this is my Tech Resume.
+              <br></br>
+              <br></br>
+
+              I am currently in the final 3 weeks of the Full-Stack Coding Bootcamp From the University of Minnesota.
+              <br></br>
+              <br></br>
+
+              Before that, I went to school for Graphic Design and Animation.
+              <br></br>
+              <br></br>
+
+              I have recently launched my own startup and decided to take up learning coding to help with future development.
+              <br></br>
+              <br></br>
+
+              I’ll come back to update this in the future.
+              <br></br>
+              <br></br>
+
+              Thanks and have a great day!
+            </p>
+          </div>
+        </div>
+      </div>
       <div>
-      <button className="glass btn" onClick={downloadPDF}>
+        <button className="glass linkBtn" onClick={downloadPDF}>
           Download PDF
         </button>
       </div>

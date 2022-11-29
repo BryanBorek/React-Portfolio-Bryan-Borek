@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import '../styles/Navbar.css';
 import '../styles/Section.css';
+import '../styles/Brand.css';
 
 export default function BodyContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -28,15 +29,15 @@ export default function BodyContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="h-100 w-100 d-inline-block" style={{ backgroundImage: "url(./testBG.jpg)", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment: "fixed", overflow: "scroll" }}>
+    <div className="h-100 w-100 d-inline-block" style={{ backgroundImage: "url(./pexels-roberto-nickson-2559941.jpg)", backgroundSize: "cover", backgroundPosition: "center", backgroundAttachment: "fixed", overflow: "scroll" }}>
       <header className='d-flex w-100 glass'>
         <div className='d-flex flex-wrap w-100' style={{ justifyContent: "space-between" }}>
-          <Header />
+          <Header currentPage={currentPage} handlePageChange={handlePageChange} />
           <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
       </header>
       <section className='contentContainer d-flex w-100'>
-        <div className='sectionGlass d-flex p-2' style={{ width: "90%", maxWidth: "1200px", overflow: "scroll" }}>
+        <div className='sectionGlass d-flex flex-wrap p-2' style={{ width: "90%", maxWidth: "1200px" }}>
           {renderPage()}
         </div>
       </section>
