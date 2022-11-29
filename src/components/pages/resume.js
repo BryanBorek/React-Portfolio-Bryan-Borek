@@ -14,7 +14,7 @@ export default function Resume() {
   }
   return (
     <div style={{ width: "-webkit-fill-available", maxWidth: "-webkit-fill-available" }}>
-      <h2>Resumè</h2>
+      <h2 className='brandFont'>Resumè</h2>
       <div className='d-flex flex-wrap justify-content-center'>
         <div className='d-flex' style={{ justifyContent: "center" }}>
           <div className='d-flex card m-2 px-0 py-2' style={{ backgroundColor: 'rgba(255, 255, 255, 0.25)', borderRadius: "10px 10px 10px 10px", maxWidth: '575px' }}>

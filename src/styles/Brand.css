@@ -36,3 +36,10 @@ p {
     font-family: 'Crimson Text', serif;
     max-width: 100%; 
  }
+
+ .brandFont {
+    font-family: 'Pacifico', cursive;
+    max-width: 100%; 
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}

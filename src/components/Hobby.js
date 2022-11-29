@@ -4,13 +4,13 @@ export default function Hobby({ title, subtitle, description, png }) {
   return (
     <div className='card m-2' style={{ backgroundColor: 'rgba(255, 255, 255, 0.25)', maxWidth: '575px', borderRadius: "10px 10px 10px 10px" }}>
       <div style={{ display: 'block'}}>
-        <h3 className='m-2 p-2'>
+        <h3 className='m-2 p-2 brandFont'>
           {title}
         </h3>
         <img src={png} alt={description} style={{ width: '100%', minWidth: "200px" }} />
       </div>
       <div>
-      <h4 className='p-2'>
+      <h4 className='p-2 brandFont'>
           {subtitle}
         </h4>
       </div>
