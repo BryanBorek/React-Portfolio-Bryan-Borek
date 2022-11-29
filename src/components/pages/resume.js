@@ -14,11 +14,11 @@ export default function Resume() {
   }
   return (
     <div style={{ width: "-webkit-fill-available", maxWidth: "-webkit-fill-available" }}>
-      <h2>Bryan's Resume</h2>
+      <h2>Resumè</h2>
       <div className='d-flex flex-wrap justify-content-center'>
         <div className='d-flex m-2 p-2' style={{ justifyContent: "center" }}>
           <div className='d-flex card m-2 px-0 py-2' style={{ backgroundColor: 'rgba(255, 255, 255, 0.25)', borderRadius: "10px 10px 10px 10px", maxWidth: '575px' }}>
-            <h3 className='m-2 p-2'>Bryan Borek Tech Industry Resume</h3>
+            <h3 className='m-2 p-2'>Bryan Borek Tech Industry Resumè</h3>
             <p className='m-0 p-2 glass' style={{ minHeight: "7em", width: '100%', minWidth: "200px" }}>
               Hi, I’m Bryan and this is my Tech Resume.
               <br></br>
@@ -42,6 +42,9 @@ export default function Resume() {
 
               Thanks and have a great day!
             </p>
+            <div>
+              <div style={{ minHeight: "1em" }}></div>
+            </div>
           </div>
         </div>
       </div>
