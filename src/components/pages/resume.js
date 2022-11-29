@@ -18,7 +18,7 @@ export default function Resume() {
       <div className='d-flex flex-wrap justify-content-center'>
         <div className='d-flex' style={{ justifyContent: "center" }}>
           <div className='d-flex card m-2 px-0 py-2' style={{ backgroundColor: 'rgba(255, 255, 255, 0.25)', borderRadius: "10px 10px 10px 10px", maxWidth: '575px' }}>
-            <h3 className='m-2 px-2 pb-2'>Bryan Borek Tech Industry Resumè</h3>
+            <h3 className='m-2 px-2 pb-2 brandFont'>Bryan Borek Tech Industry Resumè</h3>
             <p className='m-0 p-2 glass' style={{ minHeight: "7em", width: '100%', minWidth: "200px" }}>
               Hi, I’m Bryan and this is my Tech Resume.
               <br></br>
